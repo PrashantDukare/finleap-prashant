@@ -1,0 +1,16 @@
+.search-container{
+	display: flex;
+	margin-left: auto;
+}
+
+.search-container input,
+.search-container input:focus {
+	display: flex;
+	margin-left: auto;
+	padding: 5px 15px;
+	font-size: 14px;
+	background: #eee;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	width: 200pt;
+}

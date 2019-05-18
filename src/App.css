@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  height: 50px;
+  padding: 20px 40px;
+  color: #000;
+  display: flex;
+  border-bottom: 5px solid #ccc;
+}
+
+.App-header h2 {
+  margin-left: 50pt;
+}
+
+.App-table {
+  width: 90%;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #148fcf;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 15px;
+  box-shadow: none;
+  margin-left: 10px;
+  cursor: pointer;
+}

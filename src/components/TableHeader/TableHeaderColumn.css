@@ -1,0 +1,14 @@
+.restaurant-name {
+	color: #148fcf;
+	font-size: 18px;
+}
+
+.restaurant-category {
+	font-size: 15px;
+	color: #777;
+}
+
+.restaurant-rating {
+	padding-top: 10px;
+	color: darkgreen;
+}

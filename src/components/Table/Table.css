@@ -1,0 +1,59 @@
+table {
+	margin: 20px auto;
+	padding: 0;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+	font-family: arial, sans-serif;
+}
+
+td,
+th {
+	padding: 10px;
+	border: 1px solid #cccccc;
+}
+
+td.selected {
+	background-color: lightseagreen;
+}
+
+tbody td {
+	background: lightgoldenrodyellow;
+}
+tbody td:first-child {
+	background: #ffffff;
+}
+
+td.selected:after {
+	content: "\2713";
+	justify-content: center;
+	display: flex;
+}
+
+td input {
+	padding: 5px;
+	font-size: 14px;
+	width: 80%;
+	margin-left: 5%;
+}
+
+th {
+	text-align: center;
+	position: relative;
+}
+
+tr {
+	border: 1px solid #000;
+}
+
+thead tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+.action-container {
+	display: flex;
+}
+
+.highest-voted {
+	background: lightgreen;
+}
