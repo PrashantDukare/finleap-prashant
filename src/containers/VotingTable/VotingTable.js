@@ -110,6 +110,7 @@ class VotingTable extends Component {
     newData[updatedUserIndex].vote = venueID;
     let maximumVoting = 0;
     let highestVotingVenueId = null;
+    // finding highest voted restaurant
     for (let venue of this.state.columns) {
       let currentVenueVotingObject = newData.filter(user => user.vote === venue.id);
       if(currentVenueVotingObject.length >= maximumVoting && currentVenueVotingObject.length !== 0) {
